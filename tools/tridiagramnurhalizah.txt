@@ -1,0 +1,119 @@
+aplikasijadwalpelajaran/
+│
+├── index.php
+│   # halaman homepage selamat datang
+│   # navbar: loginuser dan loginpelanggan
+│
+├── assets/
+│   ├── js/
+│   ├── css/
+│   ├── plugins/
+│   └── images/
+│       ├── slider/
+│       ├── jadwal/
+│       ├── siswa/
+│       └── user/
+│
+├── views/
+│   │
+│   ├── component/
+│   │   ├── tamu/
+│   │   │   ├── navbar.php
+│   │   │   └── footer.php
+│   │   │
+│   │   ├── user/
+│   │   │   ├── navbar.php
+│   │   │   ├── sidebaradmin.php
+│   │   │   ├── sidebarpetugas.php
+│   │   │   └── footer.php
+│   │   │
+│   │   └── siswa/
+│   │       ├── navbar.php
+│   │       ├── sidebar.php
+│   │       └── footer.php
+│   │
+│   ├── user/
+│   │   ├── dashboard/
+│   │   │   ├── dashboardadmin.php
+│   │   │   └── dashboardpetugas.php
+│   │   │
+│   │   ├── user/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── siswa/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── guru/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── kelas/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── mapel/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── ruang/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   └── jadwal/
+│   │       ├── index.php
+│   │       ├── create.php
+│   │       ├── edit.php
+│   │       └── show.php
+│   │
+│   ├── siswa/
+│   │   ├── dashboardsiswa.php
+│   │   ├── profil.php
+│   │   └── jadwalpelajaran.php
+│   │
+│   ├── landing/
+│   │   ├── home.php
+│   │   ├── daftarsiswa.php
+│   │   ├── daftarjadwal.php
+│   │   ├── detiljadwal.php
+│   │   ├── daftarkelas.php
+│   │   ├── detilkelas.php
+│   │   ├── tentang.php
+│   │   ├── kontak.php
+│   │   └── daftarisi.php
+│   │
+│   ├── auth/
+│   │   ├── logout.php
+│   │   ├── loginuser.php
+│   │   ├── loginsiswa.php
+│   │   └── registersiswa.php
+│   │
+│   └── errors/
+│       ├── 404.php
+│       ├── 403.php
+│       └── 500.php
+│
+└── proses/
+    ├── koneksi.php
+    ├── session.php
+    ├── prosesuser.php
+    ├── prosessiswa.php
+    ├── prosesguru.php
+    ├── proseskelas.php
+    ├── prosesmapel.php
+    ├── prosesruang.php
+    ├── prosesjadwal.php
+    └── proseslaporan.php
